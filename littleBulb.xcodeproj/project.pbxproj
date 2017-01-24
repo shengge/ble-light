@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B005D3E1734980900269004 /* LBLightShield.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B005D3D1734980900269004 /* LBLightShield.m */; };
+		1B055B1A172D496200958435 /* LBGroupDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B055B19172D496200958435 /* LBGroupDeviceViewController.m */; };
+		1B0F713C1722156C00B228EE /* LBGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F713B1722156C00B228EE /* LBGroupListViewController.m */; };
+		1B12B9F71723A13600B40D96 /* ZZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B12B9F61723A13600B40D96 /* ZZDatabase.m */; };
+		1B6BAF5116F20935004106E1 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6BAF5016F20935004106E1 /* EventKitUI.framework */; };
+		1B6BAF5216F209AB004106E1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDB74A816E06960005842A3 /* EventKit.framework */; };
+		1B6FED1916E6288F00D03BDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6FED1816E6288F00D03BDE /* QuartzCore.framework */; };
+		1BA6A16716DF8FF2009659D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6A16616DF8FF2009659D7 /* CoreMotion.framework */; };
+		1BB52F071736872E0063147D /* LBGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB52F061736872E0063147D /* LBGroupCell.m */; };
+		1BB52F0A1736960F0063147D /* YYSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB52F091736960F0063147D /* YYSession.m */; };
+		1BC8AB421728276E009AC59C /* LBGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8AB411728276E009AC59C /* LBGroup.m */; };
+		1BE6C29816EA1B3B00EBB822 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE6C29716EA1B3B00EBB822 /* MainStoryboard.storyboard */; };
+		1BF4511A172253F700C95CDD /* LBGroupList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF45119172253F700C95CDD /* LBGroupList.m */; };
+		1BFDA3A8172F79260074689C /* LBSelectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDA3A7172F79250074689C /* LBSelectDeviceViewController.m */; };
+		1BFE21CE16EB6FAA00C82F8B /* LBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE21CD16EB6FAA00C82F8B /* LBDevice.m */; };
+		CB4C75D31DBF43E89572292E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E88B44344E4A8A8275F3B4 /* libPods.a */; };
+		E224EF86192C49FD00AB5D9B /* LBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E224EF85192C49FD00AB5D9B /* LBTools.m */; };
+		E2ED5DF31916382E00C0BF2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ED5DF21916382E00C0BF2C /* Images.xcassets */; };
+		E633909B15AFB2FC00C7A225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909A15AFB2FC00C7A225 /* UIKit.framework */; };
+		E633909D15AFB2FC00C7A225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909C15AFB2FC00C7A225 /* Foundation.framework */; };
+		E633909F15AFB2FC00C7A225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */; };
+		E63390A515AFB2FC00C7A225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63390A315AFB2FC00C7A225 /* InfoPlist.strings */; };
+		E63390A715AFB2FC00C7A225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390A615AFB2FC00C7A225 /* main.m */; };
+		E63390AB15AFB2FC00C7A225 /* BLEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */; };
+		E63390B515AFB32900C7A225 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63390B415AFB32900C7A225 /* CoreBluetooth.framework */; };
+		E63390BE15AFB59B00C7A225 /* BLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390BC15AFB59B00C7A225 /* BLEViewController.m */; };
+		E63390C415AFB5EC00C7A225 /* BLEDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */; };
+		E65D07BF15BE9DD80097C363 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E88B44344E4A8A8275F3B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B005D3C1734980900269004 /* LBLightShield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBLightShield.h; path = littleBulb/LBLightShield.h; sourceTree = "<group>"; };
+		1B005D3D1734980900269004 /* LBLightShield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBLightShield.m; path = littleBulb/LBLightShield.m; sourceTree = "<group>"; };
+		1B055B18172D496200958435 /* LBGroupDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGroupDeviceViewController.h; sourceTree = "<group>"; };
+		1B055B19172D496200958435 /* LBGroupDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGroupDeviceViewController.m; sourceTree = "<group>"; };
+		1B0F713A1722156C00B228EE /* LBGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGroupListViewController.h; sourceTree = "<group>"; };
+		1B0F713B1722156C00B228EE /* LBGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGroupListViewController.m; sourceTree = "<group>"; };
+		1B12B9F51723A13600B40D96 /* ZZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDatabase.h; sourceTree = "<group>"; };
+		1B12B9F61723A13600B40D96 /* ZZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDatabase.m; sourceTree = "<group>"; };
+		1B6BAF5016F20935004106E1 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		1B6FED1816E6288F00D03BDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BA6A16516DF20B0009659D7 /* LBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBDefine.h; sourceTree = "<group>"; };
+		1BA6A16616DF8FF2009659D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1BAEE4C416EA0817000DC5CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1BB52F051736872E0063147D /* LBGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBGroupCell.h; path = littleBulb/LBGroupCell.h; sourceTree = "<group>"; };
+		1BB52F061736872E0063147D /* LBGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBGroupCell.m; path = littleBulb/LBGroupCell.m; sourceTree = "<group>"; };
+		1BB52F081736960F0063147D /* YYSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSession.h; sourceTree = "<group>"; };
+		1BB52F091736960F0063147D /* YYSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSession.m; sourceTree = "<group>"; };
+		1BC8AB401728276E009AC59C /* LBGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGroup.h; sourceTree = "<group>"; };
+		1BC8AB411728276E009AC59C /* LBGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGroup.m; sourceTree = "<group>"; };
+		1BDB74A816E06960005842A3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1BE6C29716EA1B3B00EBB822 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1BF45118172253F700C95CDD /* LBGroupList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGroupList.h; sourceTree = "<group>"; };
+		1BF45119172253F700C95CDD /* LBGroupList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGroupList.m; sourceTree = "<group>"; };
+		1BFDA3A6172F79250074689C /* LBSelectDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSelectDeviceViewController.h; sourceTree = "<group>"; };
+		1BFDA3A7172F79250074689C /* LBSelectDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSelectDeviceViewController.m; sourceTree = "<group>"; };
+		1BFE21CC16EB6FAA00C82F8B /* LBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBDevice.h; sourceTree = "<group>"; };
+		1BFE21CD16EB6FAA00C82F8B /* LBDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBDevice.m; sourceTree = "<group>"; };
+		C99BF20802AC41F7B013420B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E224EF84192C49FD00AB5D9B /* LBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTools.h; sourceTree = "<group>"; };
+		E224EF85192C49FD00AB5D9B /* LBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTools.m; sourceTree = "<group>"; };
+		E2ED5DF21916382E00C0BF2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = littleBulb/Images.xcassets; sourceTree = "<group>"; };
+		E633909615AFB2FC00C7A225 /* littleBulb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleBulb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E633909A15AFB2FC00C7A225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E633909C15AFB2FC00C7A225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63390A215AFB2FC00C7A225 /* littleBulb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "littleBulb-Info.plist"; sourceTree = "<group>"; };
+		E63390A415AFB2FC00C7A225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63390A615AFB2FC00C7A225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63390A815AFB2FC00C7A225 /* littleBulb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "littleBulb-Prefix.pch"; sourceTree = "<group>"; };
+		E63390A915AFB2FC00C7A225 /* BLEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLEAppDelegate.h; path = littleBulb/BLEAppDelegate.h; sourceTree = "<group>"; };
+		E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BLEAppDelegate.m; path = littleBulb/BLEAppDelegate.m; sourceTree = "<group>"; };
+		E63390B415AFB32900C7A225 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E63390BB15AFB59B00C7A225 /* BLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEViewController.h; sourceTree = "<group>"; };
+		E63390BC15AFB59B00C7A225 /* BLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEViewController.m; sourceTree = "<group>"; };
+		E63390C115AFB5EC00C7A225 /* BLEDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDeviceViewController.h; sourceTree = "<group>"; };
+		E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDeviceViewController.m; sourceTree = "<group>"; };
+		E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E633909315AFB2FC00C7A225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6BAF5216F209AB004106E1 /* EventKit.framework in Frameworks */,
+				1B6BAF5116F20935004106E1 /* EventKitUI.framework in Frameworks */,
+				1B6FED1916E6288F00D03BDE /* QuartzCore.framework in Frameworks */,
+				1BA6A16716DF8FF2009659D7 /* CoreMotion.framework in Frameworks */,
+				E65D07BF15BE9DD80097C363 /* AudioToolbox.framework in Frameworks */,
+				E63390B515AFB32900C7A225 /* CoreBluetooth.framework in Frameworks */,
+				E633909B15AFB2FC00C7A225 /* UIKit.framework in Frameworks */,
+				E633909D15AFB2FC00C7A225 /* Foundation.framework in Frameworks */,
+				E633909F15AFB2FC00C7A225 /* CoreGraphics.framework in Frameworks */,
+				CB4C75D31DBF43E89572292E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B17ACC517295CBE0049128C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BF45118172253F700C95CDD /* LBGroupList.h */,
+				1BF45119172253F700C95CDD /* LBGroupList.m */,
+				1BC8AB401728276E009AC59C /* LBGroup.h */,
+				1BC8AB411728276E009AC59C /* LBGroup.m */,
+				1BFE21CC16EB6FAA00C82F8B /* LBDevice.h */,
+				1BFE21CD16EB6FAA00C82F8B /* LBDevice.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B17ACC617295CD30049128C /* BlueShield */ = {
+			isa = PBXGroup;
+			children = (
+				1B005D3C1734980900269004 /* LBLightShield.h */,
+				1B005D3D1734980900269004 /* LBLightShield.m */,
+			);
+			name = BlueShield;
+			sourceTree = "<group>";
+		};
+		1B98284A16DF02A400078DDA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1B17ACC617295CD30049128C /* BlueShield */,
+				1B17ACC517295CBE0049128C /* Model */,
+				1BA6A16516DF20B0009659D7 /* LBDefine.h */,
+				1BB52F081736960F0063147D /* YYSession.h */,
+				1BB52F091736960F0063147D /* YYSession.m */,
+				1B12B9F51723A13600B40D96 /* ZZDatabase.h */,
+				1B12B9F61723A13600B40D96 /* ZZDatabase.m */,
+				E224EF84192C49FD00AB5D9B /* LBTools.h */,
+				E224EF85192C49FD00AB5D9B /* LBTools.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		1B98285116DF083E00078DDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED5DF21916382E00C0BF2C /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1BB52F041736870B0063147D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BB52F051736872E0063147D /* LBGroupCell.h */,
+				1BB52F061736872E0063147D /* LBGroupCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1BFDA3A9172F792D0074689C /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				E63390BB15AFB59B00C7A225 /* BLEViewController.h */,
+				E63390BC15AFB59B00C7A225 /* BLEViewController.m */,
+				E63390C115AFB5EC00C7A225 /* BLEDeviceViewController.h */,
+				E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */,
+			);
+			name = Single;
+			sourceTree = "<group>";
+		};
+		1BFDA3AA172F79330074689C /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F713A1722156C00B228EE /* LBGroupListViewController.h */,
+				1B0F713B1722156C00B228EE /* LBGroupListViewController.m */,
+				1B055B18172D496200958435 /* LBGroupDeviceViewController.h */,
+				1B055B19172D496200958435 /* LBGroupDeviceViewController.m */,
+				1BFDA3A6172F79250074689C /* LBSelectDeviceViewController.h */,
+				1BFDA3A7172F79250074689C /* LBSelectDeviceViewController.m */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+		E633908B15AFB2FC00C7A225 = {
+			isa = PBXGroup;
+			children = (
+				1BB52F041736870B0063147D /* Cell */,
+				1BFDA3AA172F79330074689C /* Group */,
+				1BFDA3A9172F792D0074689C /* Single */,
+				1BE6C29716EA1B3B00EBB822 /* MainStoryboard.storyboard */,
+				E63390A915AFB2FC00C7A225 /* BLEAppDelegate.h */,
+				E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */,
+				E63390A115AFB2FC00C7A225 /* Supporting Files */,
+				1B98285116DF083E00078DDA /* Resources */,
+				1B98284A16DF02A400078DDA /* Library */,
+				E633909915AFB2FC00C7A225 /* Frameworks */,
+				E633909715AFB2FC00C7A225 /* Products */,
+				C99BF20802AC41F7B013420B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E633909715AFB2FC00C7A225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E633909615AFB2FC00C7A225 /* littleBulb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E633909915AFB2FC00C7A225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BAF5016F20935004106E1 /* EventKitUI.framework */,
+				1B6FED1816E6288F00D03BDE /* QuartzCore.framework */,
+				1BDB74A816E06960005842A3 /* EventKit.framework */,
+				1BA6A16616DF8FF2009659D7 /* CoreMotion.framework */,
+				E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */,
+				E63390B415AFB32900C7A225 /* CoreBluetooth.framework */,
+				E633909A15AFB2FC00C7A225 /* UIKit.framework */,
+				E633909C15AFB2FC00C7A225 /* Foundation.framework */,
+				E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */,
+				13E88B44344E4A8A8275F3B4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63390A115AFB2FC00C7A225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63390A215AFB2FC00C7A225 /* littleBulb-Info.plist */,
+				E63390A315AFB2FC00C7A225 /* InfoPlist.strings */,
+				E63390A615AFB2FC00C7A225 /* main.m */,
+				E63390A815AFB2FC00C7A225 /* littleBulb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = littleBulb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E633909515AFB2FC00C7A225 /* littleBulb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63390AE15AFB2FC00C7A225 /* Build configuration list for PBXNativeTarget "littleBulb" */;
+			buildPhases = (
+				E633909215AFB2FC00C7A225 /* Sources */,
+				E633909315AFB2FC00C7A225 /* Frameworks */,
+				E633909415AFB2FC00C7A225 /* Resources */,
+				F0C7E1C9394F468BA9F948FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = littleBulb;
+			productName = littleBulb;
+			productReference = E633909615AFB2FC00C7A225 /* littleBulb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E633908D15AFB2FC00C7A225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					E633909515AFB2FC00C7A225 = {
+						DevelopmentTeam = PA4MTHNB98;
+					};
+				};
+			};
+			buildConfigurationList = E633909015AFB2FC00C7A225 /* Build configuration list for PBXProject "littleBulb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = E633908B15AFB2FC00C7A225;
+			productRefGroup = E633909715AFB2FC00C7A225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E633909515AFB2FC00C7A225 /* littleBulb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E633909415AFB2FC00C7A225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63390A515AFB2FC00C7A225 /* InfoPlist.strings in Resources */,
+				E2ED5DF31916382E00C0BF2C /* Images.xcassets in Resources */,
+				1BE6C29816EA1B3B00EBB822 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0C7E1C9394F468BA9F948FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E633909215AFB2FC00C7A225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63390A715AFB2FC00C7A225 /* main.m in Sources */,
+				E224EF86192C49FD00AB5D9B /* LBTools.m in Sources */,
+				E63390AB15AFB2FC00C7A225 /* BLEAppDelegate.m in Sources */,
+				E63390BE15AFB59B00C7A225 /* BLEViewController.m in Sources */,
+				E63390C415AFB5EC00C7A225 /* BLEDeviceViewController.m in Sources */,
+				1BFE21CE16EB6FAA00C82F8B /* LBDevice.m in Sources */,
+				1B0F713C1722156C00B228EE /* LBGroupListViewController.m in Sources */,
+				1BF4511A172253F700C95CDD /* LBGroupList.m in Sources */,
+				1B12B9F71723A13600B40D96 /* ZZDatabase.m in Sources */,
+				1BC8AB421728276E009AC59C /* LBGroup.m in Sources */,
+				1B055B1A172D496200958435 /* LBGroupDeviceViewController.m in Sources */,
+				1BFDA3A8172F79260074689C /* LBSelectDeviceViewController.m in Sources */,
+				1B005D3E1734980900269004 /* LBLightShield.m in Sources */,
+				1BB52F071736872E0063147D /* LBGroupCell.m in Sources */,
+				1BB52F0A1736960F0063147D /* YYSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63390A315AFB2FC00C7A225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63390A415AFB2FC00C7A225 /* en */,
+				1BAEE4C416EA0817000DC5CB /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63390AC15AFB2FC00C7A225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		E63390AD15AFB2FC00C7A225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		E63390AF15AFB2FC00C7A225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99BF20802AC41F7B013420B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleBulb/littleBulb-Prefix.pch";
+				INFOPLIST_FILE = "littleBulb/littleBulb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = littleBulb;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63390B015AFB2FC00C7A225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99BF20802AC41F7B013420B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleBulb/littleBulb-Prefix.pch";
+				INFOPLIST_FILE = "littleBulb/littleBulb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = littleBulb;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E633909015AFB2FC00C7A225 /* Build configuration list for PBXProject "littleBulb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63390AC15AFB2FC00C7A225 /* Debug */,
+				E63390AD15AFB2FC00C7A225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63390AE15AFB2FC00C7A225 /* Build configuration list for PBXNativeTarget "littleBulb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63390AF15AFB2FC00C7A225 /* Debug */,
+				E63390B015AFB2FC00C7A225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E633908D15AFB2FC00C7A225 /* Project object */;
+}

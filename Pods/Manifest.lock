@@ -1,0 +1,29 @@
+PODS:
+  - AprilSDK (1.0.1)
+  - FMDB (2.3):
+    - FMDB/standard
+  - FMDB/common (2.3)
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - MBProgressHUD (0.8)
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
+  - ReactiveCocoa/UI (2.3):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - AprilSDK
+  - FMDB
+  - MBProgressHUD
+  - ReactiveCocoa
+
+SPEC CHECKSUMS:
+  AprilSDK: 657942b39c3f449240fac35ea0ae11b716a82306
+  FMDB: 8b6b69b1164e3007d7f4b3b3719e667602ec247e
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  ReactiveCocoa: dde7b11a14954edf789e7343b2c32e595caabd01
+
+COCOAPODS: 0.32.1

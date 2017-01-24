@@ -1,0 +1,6 @@
+#include "Pods-AprilSDK.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AprilSDK" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AprilSDK" "${PODS_ROOT}/Headers/FMDB" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/ReactiveCocoa" "${PODS_ROOT}/Headers/ReactiveCocoa/ReactiveCocoa"
+LIBRARY_SEARCH_PATHS = ${PODS_APRILSDK_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_APRILSDK_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
